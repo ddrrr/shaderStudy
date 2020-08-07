@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "timer",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "bd75878d-3ef6-4dca-be45-a3c160185a06"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}
