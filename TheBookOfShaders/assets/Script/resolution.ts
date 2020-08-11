@@ -8,21 +8,17 @@
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class timer extends cc.Component {
-    private _startTime:number = 0;
-    private _mtl:cc.Material = null;
-
+export default class resolution extends cc.Component {
     start () {
-        let spt:cc.Sprite = this.node.getComponent(cc.Sprite);
-        if(spt){
-            this._mtl = spt.getMaterial(0);
+        let csize = this.node.getContentSize();
+
+        let renderCmp = this.node.getComponent(cc.RenderComponent);
+        if(renderCmp){
+            let mtl = renderCmp.getMaterial(0);
+            if(mtl){
+                mtl.setProperty('u_resolution',new cc.Vec2(csize.width,csize.height));
+            }
         }
-    }
-
-    update(dt){
-        this._startTime += 0.01;
-
-        this._mtl.setProperty('u_fTime',this._startTime);
     }
 
     // update (dt) {}

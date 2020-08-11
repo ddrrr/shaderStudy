@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.Material",
+  "_name": "glcoord",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "3dedd1ec-4c28-4f38-97c4-8eee6d8d4f00"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true,
+        "USE_ALPHA_TEST": false
+      }
+    }
+  }
+}
