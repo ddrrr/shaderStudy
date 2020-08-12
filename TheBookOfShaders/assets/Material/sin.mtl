@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "sin",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "19670ed3-576b-45c9-a372-da2439adf702"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}

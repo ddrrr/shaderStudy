@@ -58,7 +58,7 @@
     "_groupIndex": 0,
     "groupIndex": 0,
     "autoReleaseAssets": false,
-    "_id": "3b664088-0c0f-4405-bedc-3306caae39d0"
+    "_id": "6a9d54d8-695e-4d2f-a6eb-b25f339bf15a"
   },
   {
     "__type__": "cc.Node",
@@ -287,7 +287,7 @@
     "_enabled": true,
     "_materials": [
       {
-        "__uuid__": "de8f9382-1a5b-4260-93b5-672f5051f42d"
+        "__uuid__": "200ddfd5-acd1-4cba-94dd-0c0e2961743e"
       }
     ],
     "_srcBlendFactor": 770,
@@ -307,7 +307,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": "52XalToLBP6LjYnjYDI8AY"
+    "_id": "59JBDYxB9IbYFxEefWRLSU"
   },
   {
     "__type__": "173bcygYRlFcqzsAJTuXNx+",
@@ -317,6 +317,6 @@
       "__id__": 2
     },
     "_enabled": true,
-    "_id": "29Zl6soX5MC6P6gOHCIdXm"
+    "_id": "672GTFShZK5rKKVJn4fH9G"
   }
 ]
