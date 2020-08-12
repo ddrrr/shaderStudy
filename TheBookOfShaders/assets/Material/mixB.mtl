@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "mixB",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "979f2e1b-a036-4ab3-9a66-775c0fdfb5be"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}
