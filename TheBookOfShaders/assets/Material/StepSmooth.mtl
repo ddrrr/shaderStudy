@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "StepSmooth",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "f4e34c0b-f387-4393-a33b-5a14a703f253"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}
