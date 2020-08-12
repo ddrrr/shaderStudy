@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "mix",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "1d273757-2b0d-4084-9f3c-f2c647490911"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}
