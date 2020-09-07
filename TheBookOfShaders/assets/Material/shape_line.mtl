@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.Material",
+  "_name": "shape_line",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "4a5fb52f-3eb0-4aaa-960b-f71737efd957"
+  },
+  "_techniqueIndex": 0,
+  "_techniqueData": {
+    "0": {
+      "defines": {
+        "USE_TEXTURE": true
+      }
+    }
+  }
+}
