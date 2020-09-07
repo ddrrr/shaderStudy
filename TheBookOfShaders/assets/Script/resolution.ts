@@ -16,7 +16,9 @@ export default class resolution extends cc.Component {
         if(renderCmp){
             let mtl = renderCmp.getMaterial(0);
             if(mtl){
-                mtl.setProperty('u_resolution',new cc.Vec2(csize.width,csize.height));
+                //mtl.setProperty('u_resolution',new cc.Vec2(csize.width,csize.height));
+                let size = cc.view.getVisibleSizeInPixel();
+                mtl.setProperty('u_resolution',new cc.Vec2(size.width,size.height));
             }
         }
     }

@@ -67,19 +67,29 @@ CCProgram fs %{
     vec2 u_resolution;
   };
 
+
   void main () {
-    vec2 st = gl_FragCoord.xy/u_resolution.xy;
-    vec3 color = vec3(0.0);
+    vec2 st = gl_FragCoord.xy / u_resolution;
+    float pct = 0.0;
 
-    // float left = step(0.1,st.x);
-    // float bottom = step(0.1,st.y);
+    // pct = distance(st,vec2(0.5));
 
-    vec2 borders = step(vec2(0.1),st);
-    vec2 tr = step(vec2(0.1),0.9-st);
+    // vec2 toCenter = vec2(0.5) - st;
+    // pct = length(toCenter);
 
-    color = vec3(borders.x * borders.y * tr.x * tr.y);
+    pct = distance(st,vec2(0.5));
+
+    //pct = st.y;
+    vec3 color = vec3(pct);
+
+    //if(pct >= 0.5){
+    // //if(gl_FragCoord.y >= 500.0){
+    // // if(v_uv0.y >= 0.5){
+    //   color.r = 1.0;
+    //   color.g = 0.0;
+    //   color.b = 0.0;
+    // }
 
     gl_FragColor = vec4(color,1.0);
-
   }
 }%
